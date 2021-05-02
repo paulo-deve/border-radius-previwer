@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>
+    Border Radius
+  </h1>
+
+  <section>
+    <div class="inputs">
+      <form action="" onsubmit="form.submit(event)">
+        <input type="number" class="top-left" placeholder="left">
+        <input type="number" class="top-right" placeholder="right">
+      </form>
+      
+    </div>
+  
+    <div class="container">
+
+    </div>
+
+    <div class="inputs">
+      <form action="" onsubmit="form.submit(event)">
+        <input type="number" class="bottom-left" placeholder="left">
+        <input type="number" class="bottom-right" placeholder="right">
+      </form>
+      
+    </div>
+</section>
+
+<input type="button" onclick="calc()" value="Calcular" class="button">
+<input type="button" onclick="clearFields()" value="Limpar" class="button">
+
+  <script src="index.js"></script>
+</body>
+</html>
